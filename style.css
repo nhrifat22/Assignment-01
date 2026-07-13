@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+.nav-p1{
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+     margin:20px;
+}
+.secure-btn{
+    margin: 10px 20px;
+    padding: 10px 15px;
+}
+.cmn-btn{
+    background-color: blueviolet;
+    color:white;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    /* margin:20px 40px; */
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:15px;
+    margin:20px auto;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #684c4c;
+}
+.banner-card-parent{
+    margin: 0;
+    width: 100%;
+    height: 700px; /* controls the background image height */
+    display: block;
+    background-image: url('./images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-card{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-card img{
+    max-width: 100%;
+    height: 100px;
+    object-fit: cover;
+
+}
+
+.banner-text {
+    color: white;
+    text-align: center;
+    width: 550px;
+    margin:0 auto;
+}
+.special-h1{
+        font-family: Arial Black, sans-serif;
+        font-weight: 600;
+}
+.banner-text h1{
+    padding-top: 170px;
+    padding-bottom:15px;
+}
+.p-1{
+     box-shadow: 0px 15px 15px rgba(0,0,0,0.1);
+     border-radius: 15px;
+     margin: 10px;
+     padding: 30px;
+     line-height:22px;
+}
+.meet-the-speakers-div{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.meet-the-speakers-div h5{
+    margin-top: 15px; 
+}
+.secure-your-spot{
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-buttom: 300px;
+}
+
+.pricing{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+}
+hr{
+    width: 250px;
+}
+.standard,.team{
+     box-shadow: 0px 15px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding:50px;
+    line-height: 1.5;
+    
+}
+.pro{
+    background-color:#010c3d;
+    color:white;
+    box-shadow: 0px 15px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding:50px;
+    line-height: 1.5;
+}
+.cmn-header{
+    margin: 80px auto 40px auto;
+    text-align: center;
+    font-weight: bolder;
+    /* padding: 80px auto; */
+}
+
+
+ .session{
+    display: flex;                  
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-left: 6px solid #333;
+ /* border-right: 6px solid #333; */
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.mis2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    width: fit-content;
+}
+.mis2 ul li button{
+    margin:5px 10px;
+    padding : 7px 12px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 9px;
+
+}
+.btn1{
+    background-color: #222;
+    color: white;
+}
+
+.mis3 .time{
+    width:80px;
+    font-weight: bold;
+    color:#555;
+}
+.mis3 .text{
+    flex: 1;
+    margin: 0 15px;
+}
+.mis3 h2{
+    margin: 5px 0;
+    color:#222;
+}
+.mis3 p{
+    font-size: 14px;
+    color:#666;
+}
+.mis3 .tag{
+    padding: 6px 12px;
+    font: size 12px;
+    color:white;
+    border-radius: 5px;
+}
+
+.keynote .tag{
+    background-color:#229bbc;
+} 
+.ai .tag{
+    background-color: #425ad4;
+}
+.break .tag{
+    background-color:#22bc77 ;
+}
+.frontend .tag{
+    background-color: #d4ab42;
+}
+.security .tag{
+    background-color: #d05a1e;
+}
+
+/* footer section Start */
+footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+    background-color:#010c3d;
+    font-weight: bold;
+    color:#555;
+    margin: 50px 50px;
+    padding : 70px;
+    border-radius: 5px;
+}
+
+.privacy{
+    display:flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.privacy a{
+    text-decoration: none;
+    color:#555;
+}
+/*footer section End */
