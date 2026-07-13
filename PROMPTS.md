@@ -10,3 +10,4 @@ I made a dev-conference HTML/CSS-based website. Here are the sections I already 
 6) Footer
 
 For the missing section (5), suggest which types of sections/designs I could add. Consider what naturally fits between a pricing section and a footer on a conference landing page. Give me a list of options with a short description of what each one includes, and recommend which one would work best.
+
